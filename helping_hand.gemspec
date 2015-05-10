@@ -9,10 +9,6 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Chris Oliver"]
   spec.email         = ["excid3@gmail.com"]
 
-  if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com' to prevent pushes to rubygems.org, or delete to allow pushes to any server."
-  end
-
   spec.summary       = %q{Embedded help in your Ruby on Rails error pages for learning how to fix bugs when they arise.}
   spec.description   = %q{Embedded help in your Ruby on Rails error pages for learning how to fix bugs when they arise.}
   spec.homepage      = "https://helpinghand-rails.herokuapp.com/"
