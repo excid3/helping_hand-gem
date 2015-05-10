@@ -177,7 +177,7 @@
     </div>
 
     <div class="flex-column">
-      <iframe src="<%= HelpingHand::HOST %>/exceptions/<%= URI.escape @exception.original_exception.class.to_s %>/messages/<%== URI.escape @exception.message %>/record">
+      <iframe src="<%= HelpingHand.config.host %>/exceptions/<%= URI.escape @exception.original_exception.class.to_s %>/messages/<%== URI.escape @exception.message %>/record">
       </iframe>
     </div>
   </div>
